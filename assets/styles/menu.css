@@ -1,0 +1,56 @@
+
+.menu-section {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+.menu-img-right {
+  position: absolute;
+  top: -80px;
+  right: 40px;
+  width: 220px;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+
+.menu-card {
+  border: 1px solid #e5d4d4;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Styling */
+.menu-icon {
+  font-size: 50px !important;
+  color: #491616 !important;
+}
+
+/* Text + Links */
+.menu-card h5 {
+  color: #491616;
+}
+
+.menu-card p {
+  font-size: 0.9rem;
+  color: #444;
+  min-height: 90px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #491616;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #722828;
+}
