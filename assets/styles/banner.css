@@ -63,7 +63,7 @@
             padding: 12px 30px;
             border-radius: 5px;
             font-weight: 600;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease !important;
         }
         .btn-hero-primary:hover {
             background-color: #A0522D;
@@ -79,7 +79,7 @@
         }
         .btn-hero-outline:hover {
             background-color: #fff;
-            color: #8B4513;
+            border: #000 !important;
         }
        
         @media (max-width: 768px) {
