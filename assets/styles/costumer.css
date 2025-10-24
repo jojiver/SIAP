@@ -1,0 +1,72 @@
+.customer-section h2 {
+      font-weight: 700;
+      font-size: 2.2rem;
+      margin-bottom: 60px;
+      text-align: center; /* Center the heading */
+      color: #222;
+    }
+
+    /* ===== CARD STYLE ===== */
+    .customer-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 30px 25px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid #eee;
+      transition: 0.3s ease-in-out;
+      height: 100%;
+      text-align: center; /* Center text inside the card */
+    }
+
+    .customer-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .customer-card h5 {
+      font-weight: 700;
+      color: #5a1a0a;
+      margin-bottom: 15px;
+    }
+
+    .customer-card p {
+      font-style: italic;
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: left;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+      justify-content: center; /* Center the profile info */
+    }
+
+    .profile img {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile h6 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .profile small {
+      color: #777;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      .customer-section h2 {
+        font-size: 1.8rem;
+      }
+    }

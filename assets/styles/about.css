@@ -1,0 +1,93 @@
+.about-section {
+      padding: 80px 20px;
+    }
+
+    .about-hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .about-hero img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text {
+      max-width: 520px;
+    }
+
+    .about-text h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    .about-text p {
+      font-size: 0.96rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .about-btn {
+      border: 1px solid #000;
+      border-radius: 20px;
+      background: transparent;
+      padding: 8px 24px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .about-btn:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    /* ===== CONTACT CARD ===== */
+    .image-section {
+      position: relative;
+    }
+
+    .contact-card {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 260px;
+      font-size: 0.9rem;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+
+    .contact-card h6 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .contact-card p {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-card i {
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .contact-card {
+        position: absolute;
+        margin-top: 20px;
+        left: 0;
+      }
+    }

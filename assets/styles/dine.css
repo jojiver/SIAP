@@ -1,0 +1,99 @@
+ .dine-section{
+    margin-top: 50px;
+ }
+ 
+ .dine-section h2 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 2.2rem;
+      color: #222;
+    }
+
+    .dine-section h2 span {
+      color: #6b1a0a;
+    }
+
+    .contact-box {
+      background-color: #2e2b2b;
+      color: #fff;
+      border-radius: 10px;
+      padding: 40px 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      height: 100%;
+    }
+
+    .contact-box h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .contact-box p {
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+
+    .contact-box small {
+      color: #aaa;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin-right: 10px;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #dc3545;
+    }
+
+
+    .contact-form {
+      background: #fff;
+      border-radius: 10px;
+      padding: 40px 30px;
+      border: 1px solid #ddd;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-form h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .contact-form small {
+      color: #999;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      border-radius: 5px;
+      box-shadow: none;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+    }
+
+    .form-control:focus {
+      border-color: #6b1a0a;
+      box-shadow: 0 0 0 0.15rem rgba(107, 26, 10, 0.25);
+    }
+
+    .submit-btn {
+      background-color: #2e2b2b;
+      color: #fff;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #6b1a0a;
+    }
