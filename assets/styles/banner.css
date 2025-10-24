@@ -81,7 +81,7 @@
             background-color: #fff;
             color: #8B4513;
         }
-        /* Responsive adjustments */
+       
         @media (max-width: 768px) {
             .hero {
                 min-height: auto;

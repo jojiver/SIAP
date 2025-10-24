@@ -2,11 +2,11 @@
       font-weight: 700;
       font-size: 2.2rem;
       margin-bottom: 60px;
-      text-align: center; /* Center the heading */
+      text-align: center; 
       color: #222;
     }
 
-    /* ===== CARD STYLE ===== */
+  
     .customer-card {
       background: #fff;
       border-radius: 16px;
@@ -15,7 +15,7 @@
       border: 1px solid #eee;
       transition: 0.3s ease-in-out;
       height: 100%;
-      text-align: center; /* Center text inside the card */
+      text-align: center; 
     }
 
     .customer-card:hover {
@@ -44,7 +44,7 @@
       text-align: left;
       border-top: 1px solid #eee;
       padding-top: 15px;
-      justify-content: center; /* Center the profile info */
+      justify-content: center; 
     }
 
     .profile img {
