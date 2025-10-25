@@ -1,0 +1,87 @@
+#footer{
+    margin-top: 200px;
+    background-color: rgb(78, 76, 76);
+}
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.logofooter{
+    padding-bottom: 20px;
+}
+.headerfooter{
+    padding-bottom: 20px;
+}
+.cardfooter span{
+}
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.contactfooter span{
+    color: white;
+}
+.icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-brands {
+    font-size: xx-large;
+    color: rgb(43, 26, 26);
+    
+}
+.imagefooter {
+  display: grid;
+  grid-template-columns: repeat(2, 6rem); 
+  gap: 1rem; 
+  justify-content: center; 
+  margin-top: 11px;
+
+}
+.cardfooter span{
+    padding-left:1.5rem;
+}
+
+.imagefooter img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover; 
+  border-radius: 0.5rem; 
+}
+
+@media (max-width: 768px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+    .logofooter {
+        padding-bottom: 1px;
+        margin-top: 1px;
+    }
+
+    .headerfooter{
+        padding-bottom: 10px;
+    }
+    .navfooter{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .contactfooter{
+        margin-bottom: 1rem;
+    }
+    .helpfooter{
+        margin-bottom: 1rem;
+    }
+    .cardfooter{
+
+    }
+}
